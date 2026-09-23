@@ -3,7 +3,7 @@
 "version": "1.0.0",
 "description": "Servidor multijugador z6",
 "main": "server.js",
-"scripts":{
+"scripts": {
 "start": "node server.js"
-}
+"dependencies":{"ws": "^8.18.0"
 }
