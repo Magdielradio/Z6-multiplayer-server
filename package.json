@@ -2,8 +2,8 @@
 "name": "servidor-multijugador-z6",
 "version": "1.0.0",
 "description": "Servidor multijugador z6",
-"main": "servidor.js",
+"main": "server.js",
 "scripts":{
-"start": "node servidor.js"
+"start": "node server.js"
 }
 }
