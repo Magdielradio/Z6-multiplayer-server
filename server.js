@@ -1,6 +1,7 @@
 const { WebSocketServer } = require('ws');
-const http = require('http');
+const http= require('http');
 const server = http.createServer();
+server.on('request', (req, res) => res.end('Z6 Multiplayer Server Online'));
 const wss = new WebSocketServer({ server });
 wss.on('connection', (socket) => {
 console.log('Jugador conectado');
